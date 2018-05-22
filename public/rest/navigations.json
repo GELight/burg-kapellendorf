@@ -1,0 +1,68 @@
+{
+    "navigation": [
+        {
+            "id": 1,
+            "title": "navigation.welcome.title",
+            "description": "navigation.welcome.description",
+            "link": "index",
+            "active": true,
+            "type": "main"
+        },
+        {
+            "id": 2,
+            "title": "navigation.association.title",
+            "description": "navigation.association.description",
+            "link": "association",
+            "active": false,
+            "type": "main"
+        },
+        {
+            "id": 3,
+            "title": "navigation.operation.title",
+            "description": "navigation.operation.description",
+            "link": "operation",
+            "active": false,
+            "type": "main"
+        },
+        {
+            "id": 4,
+            "title": "navigation.youth.title",
+            "description": "navigation.youth.description",
+            "link": "youth",
+            "active": false,
+            "type": "main"
+        },
+        {
+            "id": 5,
+            "title": "navigation.honor.title",
+            "description": "navigation.honor.description",
+            "link": "honor",
+            "active": false,
+            "type": "main"
+        },
+        {
+            "id": 100,
+            "title": "footer.imprint.title",
+            "description": "navigation.imprint.description",
+            "link": "imprint",
+            "active": false,
+            "type": "footer"
+        },
+        {
+            "id": 110,
+            "title": "footer.dataprotection.title",
+            "description": "navigation.dataprotection.description",
+            "link": "dataprotection",
+            "active": false,
+            "type": "footer"
+        },
+        {
+            "id": 120,
+            "title": "footer.disclaimer.title",
+            "description": "navigation.disclaimer.description",
+            "link": "disclaimer",
+            "active": false,
+            "type": "footer"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+
+$font-family-base: 'Exo 2', cursive;
+$brand-primary: #b1c50e;
+$body-bg: #dddddd;
+
+//
+// Color Offsets
+
+$color-offset-default: 5%;
+
+//
+// Base Colors
+
+$base-color: $body-bg;  // ( Grey )
+
+$color-default:	  	$base-color;   	  // Default ( Base )
+$color-primary:	  	$brand-primary;   // Primary
+$color-info:      	$color-default;		// Info
+$color-success:	  	$color-default;		// Success
+$color-warning:	  	$color-default;		// Warning
+$color-danger:    	$color-default;		// Danger
+$color-highlighted:	#3c2054;
+
+//
+// Layout Colors
+
+$layout-color-default: $color-default;
+
+
+//
+// Text
+
+$text-fontFamily: "ProximaNovaLight","Helvetica Neue",Helvetica,Arial,sans-serif;
+$text-fontSize-default: .85rem;
+$text-lineHeight-default: 1rem;
+
+$text-color-default:  lighten($color-default, 100%);
+$text-color-primary:  lighten($color-primary, 0%);
+$text-color-info:     lighten($color-info, 50%);
+$text-color-success:  lighten($color-success, 40%);
+$text-color-warning:  lighten($color-warning, 50%);
+$text-color-danger:   lighten($color-danger, 50%);
+
+
+//
+// Borders
+
+$border-width-default: 1px;
+$border-color-default: lighten($color-default, $color-offset-default * 13);
+$border-style-default: solid;
+$round-border-radius-default: 3px;
+
+
+//
+// Spaces
+
+$space-default: 0.5em;
+
+
+//
+// Transitions
+
+$transition-time-default: .2s;
+
+
+//
+// Shadow
+
+$shadow-color-default: rgba(0, 0, 0, .4);
+$shadow-size: $space-default;
+$shadow-pos-left: 0px;
+$shadow-pos-top: 0px;
+$shadow-weight: 0px;
+
+
+// Buttons
+
+$btn-primary-color: lighten($brand-primary, 100%);
+$btn-primary-bg: $brand-primary;
+$btn-primary-border: darken($brand-primary, 5%);

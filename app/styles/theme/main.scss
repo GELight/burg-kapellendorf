@@ -1,0 +1,25 @@
+
+//
+// Import or define the rest of your themelication's styles.
+@import "customized-bootstrap/customized-bootstrap";
+
+//
+// Import global variables and mixins
+@import "mixins";
+
+//
+// themelication
+@import "components/global";
+@import "components/application";
+@import "components/nav";
+/*
+@import "components/layout";
+@import "components/footer";
+@import "components/section";
+@import "components/grid";
+@import "components/card";
+@import "components/topbar";
+@import "components/list";
+@import "components/welcome";
+@import "components/grid";
+*/

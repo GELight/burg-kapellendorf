@@ -1,0 +1,21 @@
+.topbar {
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 1;
+    line-height: 50px;
+    font-size: 1.4em;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 1em;
+    }
+
+    .emergency-call {
+        float: right;
+        font-size: .8em;
+    }
+
+}

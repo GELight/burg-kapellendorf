@@ -1,0 +1,38 @@
+{
+    "brand": {
+        "title": "Wasserburg",
+        "city": "Kapellendorf"
+    },
+    "navigation": {
+        "home": {
+            "title": "Suchen",
+            "description": "Finde eine Aktivität"
+        },
+        "imprint": {
+            "title": "Impressum",
+            "description": ""
+        },
+        "dataprotection": {
+            "title": "Datenschutz",
+            "description": ""
+        },
+        "disclaimer": {
+            "title": "Haftungsausschluss",
+            "description": ""
+        }
+    },
+    "footer": {
+        
+    },
+    "copyright": "Copyright © 2018 - {year} | {brand}",
+    "contact": {
+        "firstname": "Mario",
+        "lastname": "Linz",
+        "street": "Triftgasse",
+        "houseno": "12",
+        "zip": "99094",
+        "city": "Erfurt-Molsdorf",
+        "email": "gelight@gmx.de",
+        "land": "Deutschland"
+    }
+}

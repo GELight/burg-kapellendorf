@@ -1,0 +1,98 @@
+//
+// Global
+html,
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+}
+
+body {
+	font-size: $text-fontSize-default;
+	font-family: $font-family-base;
+	background: $body-bg;
+	color: $text-color-default;
+	/*
+	> .ember-view {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url('/img/body.png');
+		background-position: top center;
+		z-index: 1;
+		overflow: auto;
+	}
+	*/
+}
+
+
+
+/*
+// Global transition for all link hover
+a {
+	color: $text-color-default;
+	@include transition();
+
+	&:hover {
+		color: $text-color-default;
+	}
+}
+
+h2 {
+	font-size: $h2-font-size;
+	margin-bottom: $space-default * 2;
+}
+h4 {
+	font-size: $h4-font-size;
+	margin-top: $space-default * 2;
+}
+
+@include media-breakpoint-down(md) {
+	h2 {
+		font-size: $h2-font-size - .4;
+	}
+}
+
+@include media-breakpoint-down(sm) {
+	h2 {
+    font-size: $h2-font-size * 0.7;
+    line-height: 1.5em;
+	}
+}
+
+
+//
+// Lists
+ul {
+	list-style: none;
+	padding: 0;
+
+	li {
+		padding-left: 1.3em;
+
+		&:before {
+			content: "\f00c";
+			font-family: FontAwesome;
+			display: inline-block;
+			margin-left: -1.3em;
+			width: 1.3em;
+		}
+
+		li {
+
+			&:before {
+				content: "\f0da";
+				font-family: FontAwesome;
+				display: inline-block;
+				margin-left: -1.3em;
+				width: 1.3em;
+			}
+		}
+
+	}
+
+}
+*/

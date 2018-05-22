@@ -1,0 +1,19 @@
+
+section {
+
+	& ~ section {
+		margin-top: $space-default * 6;
+	}
+
+	// &.highlight {
+	// 	padding: $space-default * 6 0;
+	// 	background: lighten($body-bg, 100%);
+	// 	@include border-top-bottom();
+		
+	// 	h2 {
+	// 		margin-bottom: $space-default;
+	// 	}
+
+	// }
+
+}
