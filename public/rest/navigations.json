@@ -1,7 +1,7 @@
 {
     "navigation": [
         {
-            "id": 1,
+            "id": 10,
             "title": "navigation.welcome.title",
             "description": "navigation.welcome.description",
             "link": "index",
@@ -9,34 +9,26 @@
             "type": "main"
         },
         {
-            "id": 2,
-            "title": "navigation.association.title",
-            "description": "navigation.association.description",
-            "link": "association",
+            "id": 20,
+            "title": "navigation.experience.title",
+            "description": "navigation.experience.description",
+            "link": "experience",
             "active": false,
             "type": "main"
         },
         {
-            "id": 3,
-            "title": "navigation.operation.title",
-            "description": "navigation.operation.description",
-            "link": "operation",
+            "id": 30,
+            "title": "navigation.news.title",
+            "description": "navigation.news.description",
+            "link": "news",
             "active": false,
             "type": "main"
         },
         {
-            "id": 4,
-            "title": "navigation.youth.title",
-            "description": "navigation.youth.description",
-            "link": "youth",
-            "active": false,
-            "type": "main"
-        },
-        {
-            "id": 5,
-            "title": "navigation.honor.title",
-            "description": "navigation.honor.description",
-            "link": "honor",
+            "id": 40,
+            "title": "navigation.contact.title",
+            "description": "navigation.contact.description",
+            "link": "contact",
             "active": false,
             "type": "main"
         },

@@ -1,15 +1,16 @@
 import DS from 'ember-data';
+import { pluralize } from 'ember-inflector';
 
-export default DS.JSONAPIAdapter.extend({
+export default DS.RESTAdapter.extend({
 
     urlForFindAll(modelName/*, snapshot*/) {
         let baseUrl = this.buildURL();
-        return baseUrl + '/rest/' + Ember.String.pluralize(modelName) + '.json';
+        return baseUrl + '/rest/' + pluralize(modelName) + '.json';
     },
     
     urlForFindRecord(id, modelName/*, snapshot*/) {
         let baseUrl = this.buildURL();
-        return baseUrl + '/rest/' + Ember.String.pluralize(modelName) + '/' + id + '.json';
+        return baseUrl + '/rest/' + pluralize(modelName) + '/' + id + '.json';
     }
     
 });

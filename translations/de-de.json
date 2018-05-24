@@ -4,9 +4,21 @@
         "city": "Kapellendorf"
     },
     "navigation": {
-        "home": {
-            "title": "Suchen",
-            "description": "Finde eine Aktivität"
+        "welcome": {
+            "title": "Vergangen",
+            "description": "Geschichte der Burg"
+        },
+        "experience": {
+            "title": "Erlebbar",
+            "description": "Führungen und Vermietungen"
+        },
+        "news": {
+            "title": "Aktuell",
+            "description": "Veranstaltungen und Museum"
+        },
+        "contact": {
+            "title": "Erreichbar",
+            "description": "Kontakt und Öffnungszeiten"
         },
         "imprint": {
             "title": "Impressum",
@@ -20,9 +32,6 @@
             "title": "Haftungsausschluss",
             "description": ""
         }
-    },
-    "footer": {
-        
     },
     "copyright": "Copyright © 2018 - {year} | {brand}",
     "contact": {

@@ -1,0 +1,44 @@
+
+//
+// Application Logo
+.logo {
+    text-decoration: none;
+    margin-top: 1.4em;
+    display: block;
+
+    .logo-brand {
+        line-height: .8em;
+        font-size: 2.3em;
+        text-transform: uppercase;
+        background: lighten($color-default, 100%);
+        color: $color-highlighted;
+        padding: $space-default $space-default * 2;
+        @include transition();
+    }
+
+    .logo-city {
+        line-height: .8em;
+        font-size: 2.05em;
+        text-transform: uppercase;
+        background: $color-highlighted;
+        color: lighten($text-color-default, 100%);
+        padding: $space-default $space-default * 2;
+        @include transition();
+    }
+
+    &:hover {
+        text-decoration: none;
+        
+        .logo-brand {
+            background: $color-highlighted;
+            color: lighten($text-color-default, 100%);
+        }
+        
+        .logo-city {
+            background: lighten($color-default, 100%);
+            color: $color-highlighted;
+        }
+
+    }
+
+}
