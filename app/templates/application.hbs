@@ -1,9 +1,9 @@
 <nav>
-	<div class="container d-flex">
+	<div class="container d-flex justify-content-between">
 
 		{{app-logo}}
 
-		<div class="nav-items d-flex justify-content-center">
+		<div class="nav-items">
 			{{#each model.navigation as |item|}}
 				{{#link-to item.link class="btn btn-link"}}
 					<div class="nav-item-title">{{t item.title}}</div>

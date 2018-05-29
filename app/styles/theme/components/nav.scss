@@ -4,54 +4,97 @@
 
 nav {
   background: $color-primary;
-  height: 125px;
+  height: auto;
+
+  .container {
+
+    @include media-breakpoint-down(md) {
+      flex-direction: column;
+    }
+  }
   
   .nav-items {
-    flex-direction: row;
+    margin-top: 3.4em;
+    margin-left: 1em;
     
+    @include media-breakpoint-down(lg) {
+      margin-bottom: $space-default * 3;
+      margin-top: 4.2em;
+    }
+
+    @include media-breakpoint-down(md) {
+      margin-top: 0;
+      margin-bottom: $space-default * 3;
+      margin-left: 0;
+    }
+
     .btn-link {
       color: $color-highlighted;
       font-size: 1.2em;
-      padding: $space-default $space-default * 2;
+      padding: $space-default $space-default * 3;
       @include transition();
+      @include round-corner-all(0);
+
+      @include media-breakpoint-down(sm) {
+        width: 50%;
+      }
   
       .nav-item-title {
         text-transform: uppercase;
         font-size: 1.5em;
         font-weight: 400;
         text-align: left;
+        line-height: 1em;
         color: lighten($text-color-default, 100%);
+        margin-bottom: .15em;
+        @include transition();
+
+        @include media-breakpoint-down(lg) {
+          font-size: 1em;
+        }
+
       }
 
       .nav-item-description {
         text-transform: uppercase;
         font-size: 1em;
         text-align: left;
-        color: lighten($color-primary, $color-offset-default * 3);
-        font-size: 1em;
+        line-height: 1em;
+        color: lighten($color-primary, $color-offset-default * 6);
+        @include transition();
+
+        @include media-breakpoint-down(lg) {
+          font-size: 0.8em;
+          font-weight: 700;
+        }
       }
 
-      &:hover {
+      &:hover:not(.active) {
         text-decoration: none;
         color: $color-highlighted;
+
+        .nav-item-title {
+          color: $color-highlighted;
+        }
+        .nav-item-description {
+          color: lighten($text-color-default, 100%);
+        }
+
       }
   
       &:focus,
       &.active {
         background: $color-highlighted;
-        padding: $space-default $space-default * 2;
         text-decoration: none;
-        color: lighten($text-color-default, 100%);
+        color: lighten($text-color-default, 100%) !important;
 
         .nav-item-description {
           color: lighten($color-highlighted, $color-offset-default * 8);
         }
       }
-
   
     }
 
   }
-  
   
 }
