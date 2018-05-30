@@ -6,6 +6,11 @@
     margin-top: 1.4em;
     margin-bottom: 1.4em;
     display: block;
+    flex-direction: column;
+
+    @include media-breakpoint-down(xs) {
+        width: 100%;
+    }
 
     .logo-brand {
         line-height: .8em;

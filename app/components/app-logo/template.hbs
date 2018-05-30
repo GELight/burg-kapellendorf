@@ -1,7 +1,5 @@
-<div class="d-flex justify-content-center">
-    {{#link-to "index" class="logo"}}
-        <div class="logo-brand">{{t 'brand.title'}}</div>
-        <div class="logo-city">{{t 'contact.city'}}</div>
-        {{yield}}
-    {{/link-to}}
-</div>
+{{#link-to "index" class="logo d-flex"}}
+    <div class="logo-brand">{{t 'brand.title'}}</div>
+    <div class="logo-city">{{t 'contact.city'}}</div>
+    {{yield}}
+{{/link-to}}
