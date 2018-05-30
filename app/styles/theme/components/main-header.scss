@@ -1,0 +1,45 @@
+
+//
+// Main Header
+
+.main-header {
+    color: lighten($text-color-default, 100%);
+    flex-direction: row;
+    font-size: 2em;
+    text-transform: uppercase;
+    background: $color-default;
+    
+    .main-header-banner {
+        
+        @include media-breakpoint-down(sm) {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-header-banner-brand {
+            background: $color-highlighted;
+            width: 50%;
+            text-align: right;
+            padding: $space-default $space-default * 4;
+
+            @include media-breakpoint-down(sm) {
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        .main-header-banner-city {
+            background: $color-primary;
+            width: 50%;
+            text-align: left;
+            padding: $space-default $space-default * 4;
+
+            @include media-breakpoint-down(sm) {
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+    }
+
+}
