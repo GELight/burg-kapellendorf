@@ -1,7 +1,18 @@
 {
     "brand": {
-        "title": "Museum Wasserburg",
-        "city": "Kapellendorf"
+        "title": "Museum Wasserburg"
+    },
+    "general": {
+        "opening-hours": {
+            "title": "Öffnungszeiten",
+            "text": "DIENSTAG BIS SONNTAG<br/>10.00-12.00 Uhr<br/>UND<br/>13.00-17.00 Uhr"
+        },
+        "contact": {
+            "title": "Kontakt"
+        },
+        "tel": {
+            "title": "Telefon und Fax"
+        }
     },
     "navigation": {
         "welcome": {
@@ -35,13 +46,14 @@
     },
     "copyright": "© Copyright {year} - {brand} {city}",
     "contact": {
-        "firstname": "Mario",
+        "firstname": "Marie",
         "lastname": "Linz",
-        "street": "Triftgasse",
-        "houseno": "12",
-        "zip": "99094",
-        "city": "Erfurt-Molsdorf",
-        "email": "gelight@gmx.de",
-        "land": "Deutschland"
+        "street": "Am Burgplatz",
+        "houseno": "1",
+        "zip": "99510",
+        "city": "Kapellendorf",
+        "email": "wasserburg-kapellendorf@gmx.de",
+        "land": "Deutschland",
+        "tel": "036425 - 22 48 5"
     }
 }

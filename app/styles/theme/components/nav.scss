@@ -5,6 +5,7 @@
 nav {
   background: $color-primary;
   height: auto;
+  @include gradient-h(darken($color-primary, $color-offset-default), $color-primary);
 
   .container {
 

@@ -14,6 +14,7 @@
         background: lighten($color-default, 100%);
         color: $color-highlighted;
         padding: $space-default $space-default * 2;
+        white-space: nowrap;
         @include transition();
     }
 
@@ -24,6 +25,7 @@
         background: $color-highlighted;
         color: lighten($text-color-default, 100%);
         padding: $space-default $space-default * 2;
+        white-space: nowrap;
         @include transition();
     }
 
@@ -40,6 +42,14 @@
             color: $color-highlighted;
         }
 
+    }
+
+    .footer-information {
+
+        .logo {
+            margin-top: 4em;
+        }
+        
     }
 
 }

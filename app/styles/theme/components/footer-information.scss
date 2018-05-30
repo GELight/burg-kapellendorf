@@ -1,0 +1,32 @@
+
+//
+// Footer Information
+
+.footer-information {
+    background: $color-primary;
+    color: lighten($text-color-default, 100%);
+    padding: $space-default * 3 0;
+    line-height: 2em;
+    text-transform: uppercase;
+    font-size: 1em;
+    @include gradient-h($color-primary, darken($color-primary, $color-offset-default));
+
+    .container > * {
+        margin: 0 1em;
+    }
+    
+    .footer-information-headline {
+        font-size: 2.7em;
+        line-height: 1em;
+        margin-bottom: .3em;
+    }
+
+    .footer-information-opening-hours {
+        text-align: right;
+    }
+    
+    .footer-information-contact {
+        text-align: left;
+    }
+    
+}
