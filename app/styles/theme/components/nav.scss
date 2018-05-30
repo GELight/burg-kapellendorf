@@ -38,6 +38,11 @@ nav {
       @include media-breakpoint-down(sm) {
         width: 50%;
       }
+
+      @include media-breakpoint-down(xs) {
+        display: block;
+        width: auto;
+      }
   
       .nav-item-title {
         text-transform: uppercase;
@@ -51,6 +56,10 @@ nav {
 
         @include media-breakpoint-down(lg) {
           font-size: 1em;
+        }
+
+        @include media-breakpoint-down(xs) {
+          text-align: center;
         }
 
       }
@@ -67,6 +76,11 @@ nav {
           font-size: 0.8em;
           font-weight: 700;
         }
+
+        @include media-breakpoint-down(xs) {
+          text-align: center;
+        }
+        
       }
 
       &:hover:not(.active) {

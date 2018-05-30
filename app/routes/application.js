@@ -1,9 +1,10 @@
 import Route from '@ember/routing/route';
 import RSVP from 'rsvp';
+import { inject as service } from '@ember/service';
 
 export default Route.extend({
     
-    intl: Ember.inject.service(),
+    intl: service(),
     
     beforeModel() {
       return this.get('intl').setLocale(['de-de']);
@@ -15,7 +16,10 @@ export default Route.extend({
         navigation: this.get('store').findAll('navigation').then((nav) => {
           return nav.filter((nav) => nav.get('type') === 'main');
         }),
-        copyrightTo: new Date().getFullYear()
+        copyrightTo: new Date().getFullYear(),
+        footerNavLinks: this.get('store').findAll('navigation').then((nav) => {
+          return nav.filter((nav) => nav.get('type') === 'footer');
+        })
       });
   
     }

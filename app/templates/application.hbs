@@ -16,3 +16,9 @@
 </nav>
 
 {{outlet}}
+
+{{#info-copyright}}
+	{{t 'copyright' year=model.copyrightTo brand=(t 'brand.title') city=(t 'brand.city')}}
+{{/info-copyright}}
+
+{{footer-nav links=model.footerNavLinks}}

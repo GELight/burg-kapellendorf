@@ -34,7 +34,7 @@
         },
         {
             "id": 100,
-            "title": "footer.imprint.title",
+            "title": "navigation.imprint.title",
             "description": "navigation.imprint.description",
             "link": "imprint",
             "active": false,
@@ -42,7 +42,7 @@
         },
         {
             "id": 110,
-            "title": "footer.dataprotection.title",
+            "title": "navigation.dataprotection.title",
             "description": "navigation.dataprotection.description",
             "link": "dataprotection",
             "active": false,
@@ -50,7 +50,7 @@
         },
         {
             "id": 120,
-            "title": "footer.disclaimer.title",
+            "title": "navigation.disclaimer.title",
             "description": "navigation.disclaimer.description",
             "link": "disclaimer",
             "active": false,

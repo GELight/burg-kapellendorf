@@ -1,6 +1,6 @@
 {
     "brand": {
-        "title": "Wasserburg",
+        "title": "Museum Wasserburg",
         "city": "Kapellendorf"
     },
     "navigation": {
@@ -33,7 +33,7 @@
             "description": ""
         }
     },
-    "copyright": "Copyright © 2018 - {year} | {brand}",
+    "copyright": "Copyright © {year} - {brand} {city}",
     "contact": {
         "firstname": "Mario",
         "lastname": "Linz",

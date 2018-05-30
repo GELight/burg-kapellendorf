@@ -10,6 +10,9 @@ Router.map(function() {
   this.route('experience');
   this.route('news');
   this.route('contact');
+  this.route('imprint');
+  this.route('dataprotection');
+  this.route('disclaimer');
 });
 
 export default Router;
