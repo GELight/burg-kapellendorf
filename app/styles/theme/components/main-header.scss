@@ -5,9 +5,39 @@
 .main-header {
     color: lighten($text-color-default, 100%);
     flex-direction: row;
-    font-size: 2em;
     text-transform: uppercase;
     background: $color-default;
+
+    .main-header-content {
+        height: 350px;
+        background-image: url("/img/header-1.jpg");
+        background-size: cover;
+        background-position: right center;
+        position: relative;
+        flex-direction: column;
+
+        .main-header-logos {
+            background: lighten($color-default, 100%);
+            width: 70%;
+            margin: 0 auto;
+            padding-bottom: 20px;
+        }
+        
+        .main-header-quote {
+            background: $color-highlighted;
+            color: lighten($color-default, 100%);
+            width: auto;
+            margin: -20px auto $space-default * 4 auto;
+            padding: 0 $space-default * 3;
+            font-size: 2em;
+            @include shadow();
+
+            @include media-breakpoint-down(sm) {
+                font-size: 1.5em;
+                text-align: center;
+            }
+        }
+    }
     
     .main-header-banner {
         
@@ -16,11 +46,17 @@
             flex-direction: column;
         }
 
+        .main-header-banner-brand, 
+        .main-header-banner-city {
+            padding: $space-default $space-default * 4;
+            font-size: 2.3em;
+            line-height: 1em;
+        }
+
         .main-header-banner-brand {
             background: $color-highlighted;
             width: 50%;
             text-align: right;
-            padding: $space-default $space-default * 4;
 
             @include media-breakpoint-down(sm) {
                 width: 100%;
@@ -32,7 +68,6 @@
             background: $color-primary;
             width: 50%;
             text-align: left;
-            padding: $space-default $space-default * 4;
 
             @include media-breakpoint-down(sm) {
                 width: 100%;

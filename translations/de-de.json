@@ -2,6 +2,14 @@
     "brand": {
         "title": "Museum Wasserburg"
     },
+    "logos": {
+        "erfurt": {
+            "alt": "Landeshauptstadt Erfurt"
+        },
+        "thuringia": {
+            "alt": "Thüringen entdecken"
+        }
+    },
     "general": {
         "opening-hours": {
             "title": "Öffnungszeiten",
@@ -55,5 +63,12 @@
         "email": "wasserburg-kapellendorf@gmx.de",
         "land": "Deutschland",
         "tel": "036425 - 22 48 5"
+    },
+    "quotes": {
+        "1": "Große Türme sieht man bald",
+        "2": "Amtleute und Schösser bauen schöne Schlösser",
+        "3": "Nicht Steine sind es, die das Haus bauen, es sind die Gäste",
+        "4": "In alten Mauern spuken die Geister am liebsten",
+        "5": "Alte Steine soll man nicht verrücken"
     }
 }

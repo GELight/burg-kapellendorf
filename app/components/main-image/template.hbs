@@ -1,6 +1,19 @@
 <div class="main-header">
     
-    {{yield}}
+    <div class="main-header-content d-flex justify-content-end">
+        
+        {{yield}}
+
+        <div class="main-header-logos d-flex justify-content-center">
+            <img src="/img/logo-thueringen.jpg" alt="{{t 'logos.thuringia.alt'}}'" />
+            <img src="/img/logo-erfurt.jpg" alt="{{t 'logos.erfurt.alt'}}'" />
+        </div>
+
+        <div class="main-header-quote">
+            {{quote}}
+        </div>
+
+    </div>
     
     <div class="main-header-banner d-flex">
         <div class="main-header-banner-brand">

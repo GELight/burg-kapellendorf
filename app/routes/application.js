@@ -12,6 +12,8 @@ export default Route.extend({
 
     model() {
 
+      let quoteIndex = 1 + Math.floor(Math.random() * Math.floor(5));
+      
       return RSVP.hash({
         navigation: this.get('store').findAll('navigation').then((nav) => {
           return nav.filter((nav) => nav.get('type') === 'main');
@@ -19,7 +21,8 @@ export default Route.extend({
         copyrightTo: new Date().getFullYear(),
         footerNavLinks: this.get('store').findAll('navigation').then((nav) => {
           return nav.filter((nav) => nav.get('type') === 'footer');
-        })
+        }),
+        quote: this.get('intl').t("quotes." + quoteIndex)
       });
   
     }
