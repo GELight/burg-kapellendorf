@@ -17,7 +17,9 @@
 
 {{main-image quote=model.quote}}
 
-{{outlet}}
+<div class="page-content clearfix">
+	{{outlet}}
+</div>
 
 {{#info-copyright}}
 	{{t 'copyright' year=model.copyrightTo brand=(t 'brand.title') city=(t 'contact.city')}}

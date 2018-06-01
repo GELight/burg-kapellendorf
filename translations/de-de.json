@@ -24,6 +24,10 @@
     },
     "navigation": {
         "welcome": {
+            "title": "Herzlich willkommen!",
+            "description": ""
+        },
+        "past": {
             "title": "Vergangen",
             "description": "Geschichte der Burg"
         },

@@ -24,6 +24,10 @@
     },
     "navigation": {
         "welcome": {
+            "title": "Welcome!",
+            "description": ""
+        },
+        "past": {
             "title": "Past",
             "description": "History of the castle"
         },

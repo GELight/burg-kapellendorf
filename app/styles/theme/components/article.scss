@@ -1,0 +1,47 @@
+
+//
+// Article
+
+.article {
+    padding: $space-default * 8;
+    
+    .article-headline {
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+
+    &.article-highlighted {
+        background: $color-highlighted;
+        color: lighten($color-highlighted, 60%);
+        width: 50%;
+        
+        @include media-breakpoint-down(md) {
+            width: 100%;
+        }
+
+        .article-headline {
+            color: lighten($color-highlighted, 100%);
+        }
+    }
+    
+    &.article-primary {
+        background: $color-primary;
+        color: lighten($text-color-default, 100%);
+        width: 50%;
+
+        @include media-breakpoint-down(md) {
+            width: 100%;
+        }
+
+        .article-headline {
+            color: lighten($color-highlighted, 0%);
+        }
+
+        .article-item ~.article-item {
+            border-top: 1px solid lighten($color-primary, 30%);
+            padding-top: $space-default * 3;
+        }
+
+    }
+
+}

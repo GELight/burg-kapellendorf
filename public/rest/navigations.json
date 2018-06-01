@@ -6,10 +6,18 @@
             "description": "navigation.welcome.description",
             "link": "index",
             "active": true,
-            "type": "main"
+            "type": "root"
         },
         {
             "id": 20,
+            "title": "navigation.past.title",
+            "description": "navigation.past.description",
+            "link": "past",
+            "active": false,
+            "type": "main"
+        },
+        {
+            "id": 30,
             "title": "navigation.experience.title",
             "description": "navigation.experience.description",
             "link": "experience",
@@ -17,7 +25,7 @@
             "type": "main"
         },
         {
-            "id": 30,
+            "id": 40,
             "title": "navigation.news.title",
             "description": "navigation.news.description",
             "link": "news",
@@ -25,7 +33,7 @@
             "type": "main"
         },
         {
-            "id": 40,
+            "id": 50,
             "title": "navigation.contact.title",
             "description": "navigation.contact.description",
             "link": "contact",

@@ -13,6 +13,7 @@ Router.map(function() {
   this.route('imprint');
   this.route('dataprotection');
   this.route('disclaimer');
+  this.route('past');
 });
 
 export default Router;
