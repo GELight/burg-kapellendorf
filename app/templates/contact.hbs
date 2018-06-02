@@ -1,1 +1,66 @@
-{{outlet}}
+<div class="container">
+
+    <div class="d-flex flex-column flex-md-row">
+        
+        <div class="article article-highlighted">
+            <h2 class="article-headline">erreichbar</h2>
+            <p>
+                <strong>vorab</strong>
+            </p>
+            <p>
+                Die Wasserburg Kapellendorf gehört zur Stiftung Thüringer Schlösser und Gärten.
+                Sie beherbergt ein Museum, welches durch die Stadt Erfurt betrieben wird.
+            </p>
+            <p>
+                <strong>geöffnet</strong>
+            </p>
+            <p>
+                Dienstag bis Sonntag 10 Uhr bis 12 Uhr und 13 Uhr bis 17 Uhr
+            </p>
+            <p>
+                <strong>erreichbar</strong>
+            </p>
+            <p>
+                mit dem PKW über die Bundesstraße 7, zwischen Weimar und Jena, Abfahrt Frankendorf<br/>
+                mit dem Bus: Verbindung ab Apolda – Linie 291
+            </p>
+            <p>
+                <div><strong>{{t 'brand.title'}} {{t 'contact.city'}}</strong></div>
+                <div><strong>{{t 'contact.street'}} {{t 'contact.houseno'}}</strong>></div>
+                <div><strong>{{t 'contact.zip'}} {{t 'contact.city'}}</strong></div>
+                
+                <div class="space-top">{{t 'general.tel.title'}}</div>
+                <div><a href="tel:{{t 'contact.tel'}}">{{t 'contact.tel'}}</a></div>
+            </p>
+            <p>
+                Mail: <a href="mailto:{{t 'contact.email'}}">{{t 'contact.email'}}</a>
+            </p>
+            <p>
+                Kuratorin, Schlossverwalterin: <strong>{{t 'contact.firstname'}} {{t 'contact.lastname'}}</strong>
+            </p>
+        </div>
+
+        <div class="article article-primary">
+            <h2 class="article-headline">Förderverein</h2>
+            <p class="article-item">
+                "Wasserburg und Kapellendorf e.V."<br/>
+                <strong>Antje Strzata</strong>, Vereinsvorsitzende
+            </p>
+            <p class="article-item">
+                Am Burgplatz 1<br/>
+                99510 Kapellendorf 
+            </p>
+            <p>
+                <a href="mailto:antje@strzata.de">antje@strzata.de</a><br/>
+                <a href="http://www.kapellendorf.de" target="_blank">www.kapellendorf.de</a>
+            </p>
+            <p>
+                Link zur Satzung <a href="/data/Foerderverein-Satzung-08_03_11.doc">hier</a>.
+            </p>
+        </div>
+
+    </div>
+    
+    {{outlet}}
+
+</div>
