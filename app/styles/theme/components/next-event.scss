@@ -1,0 +1,45 @@
+
+//
+// Next Event
+
+.next-event {
+    background: $color-primary;
+    color: lighten($text-color-default, 100%);
+    text-align: center;
+    padding: $space-default * 3;
+    display: block;
+    @include transition();
+
+    .next-event-headline {
+        color: $color-highlighted;
+        font-size: 2em;
+        text-transform: uppercase;
+        line-height: 1em;
+        margin: $space-default 0 $space-default * 3 0;
+    }
+
+    .next-event-timer {
+        font-size: 2em;
+        text-transform: uppercase;
+        line-height: 1em;
+        margin-bottom: $space-default;
+
+        span {
+            font-size: 2em;
+        }
+    }
+
+    &:hover {
+        background: $color-highlighted;
+        text-decoration: none;
+
+        .next-event-headline {
+            color: lighten($text-color-default, 100%);
+        }
+
+        .next-event-timer {
+            color: lighten($text-color-default, 100%);
+        }
+    }
+    
+}

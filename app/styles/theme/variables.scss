@@ -34,7 +34,7 @@ $text-fontFamily: "News Cycle",Helvetica,Arial,sans-serif;
 $text-fontSize-default: .85rem;
 $text-lineHeight-default: 1rem;
 
-$text-color-default:  lighten($color-default, 100%);
+$text-color-default:  darken($color-default, 40%);
 $text-color-primary:  lighten($color-primary, 0%);
 $text-color-info:     lighten($color-info, 50%);
 $text-color-success:  lighten($color-success, 40%);

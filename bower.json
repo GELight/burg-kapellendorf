@@ -1,0 +1,6 @@
+{
+  "name": "burg-kapellendorf",
+  "dependencies": {
+    "countdownjs": "^2.6.0"
+  }
+}

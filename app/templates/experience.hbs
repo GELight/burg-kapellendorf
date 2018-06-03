@@ -1,1 +1,42 @@
-{{outlet}}
+<div class="container">
+    
+    <div class="article article-default article-grid">
+        <div class="article-content">
+            <h2 class="article-headline">geführt</h2>
+            <p>
+                Sie können sich jederzeit zu Führungen durch Burg und Museum anmelden.<br/>
+                Es gibt abgestimmte Führungen für Erwachsene, Kinder und Schulklassen.<br/>
+                Nehmen Sie Kontakt mit uns auf!
+            </p>
+        </div>
+        <div class="article-image" style="background-image: url(/img/guides.jpg);"></div>
+    </div>
+    <div class="article article-default article-grid">
+        <div class="article-image" style="background-image: url(/img/rental.jpg);"></div>
+        <div class="article-content">
+            <h2 class="article-headline">gewohnt</h2>
+            <p>
+                Vermietung von Räumen und dem Burghof<br/>
+                <a href="http://www.thueringerschloesser.de" target="_blank">www.thueringerschloesser.de</a>
+            </p>
+        </div>
+    </div>
+    <div class="article article-default article-grid">
+        <div class="article-content">
+            <h2 class="article-headline">geschaut</h2>
+            <p>
+                Besuchen Sie unser Burgmuseum in der Kemenate!
+            </p>
+            <p>
+                Ab 2013 finden archäologische Grabungen auf Schauflächen statt.<br/>
+                Anmeldungen über <a href="http://www.via-tempore.de" target="_blank">www.via-tempore.de</a>.
+            </p>
+        </div>
+        <div class="article-image" style="background-image: url(/img/visit.jpg);"></div>
+    </div>
+    
+    {{next-event date=model.date}}
+
+    {{outlet}}
+
+</div>

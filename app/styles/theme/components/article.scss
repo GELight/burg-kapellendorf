@@ -3,8 +3,12 @@
 // Article
 
 .article {
-    padding: $space-default * 8;
 
+    & ~ .article, 
+    + *:not(.article) {
+        margin-top: $space-default * 3;
+    }
+    
     a {
         color: lighten($color-highlighted, 100%);
         text-decoration: underline;
@@ -13,6 +17,56 @@
     .article-headline {
         font-size: 2em;
         text-transform: uppercase;
+    }
+
+    .article-content {
+        padding: $space-default * 6;
+    }
+
+    &.article-grid {
+        display: grid;
+        grid-auto-rows: 250px;
+        grid-auto-flow: row dense;
+        grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+
+        @include media-breakpoint-down(sm) {
+            grid-template-columns: 1fr;
+        }
+
+        > * {
+            grid-column-start: auto;
+            grid-row-start: auto;
+            grid-row-end: span 1;
+        }
+
+        .article-image {
+            background-position: center;
+            border: 1em solid rgba(0,0,0,.3);
+            filter: contrast(1);
+            box-shadow: inset 0 0 1px 1px #fff;
+            @include transition();
+
+            &:hover {
+                filter: contrast(2);
+            }
+        }
+
+    }
+
+    &.article-default {
+        background: lighten($color-default, 100%);
+        color: $text-color-default;
+        width: 100%;
+
+        a {
+            color: lighten($text-color-default, 0%);
+            text-decoration: underline;
+        }
+
+        .article-headline {
+            color: $color-primary;
+        }
+
     }
 
     &.article-highlighted {

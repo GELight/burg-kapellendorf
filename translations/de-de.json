@@ -20,7 +20,13 @@
         },
         "tel": {
             "title": "Telefon und Fax"
-        }
+        },
+        "event": {
+            "next": "Nächste Veranstaltung"
+        },
+        "days": "Tage",
+        "hours": "Stunden",
+        "minutes": "Minuten"
     },
     "navigation": {
         "welcome": {
