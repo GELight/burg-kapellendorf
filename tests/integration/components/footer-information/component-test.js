@@ -12,15 +12,7 @@ module('Integration | Component | footer-information', function(hooks) {
 
     await render(hbs`{{footer-information}}`);
 
-    assert.equal(this.element.textContent.trim(), '');
+    assert.notEqual(this.element.textContent.trim(), '');
 
-    // Template block usage:
-    await render(hbs`
-      {{#footer-information}}
-        template block text
-      {{/footer-information}}
-    `);
-
-    assert.equal(this.element.textContent.trim(), 'template block text');
   });
 });

@@ -1,6 +1,5 @@
 import Component from '@ember/component';
 import { inject as service } from '@ember/service';
-import { computed } from '@ember/object';
 
 export default Component.extend({
     
@@ -12,20 +11,22 @@ export default Component.extend({
 
     didReceiveAttrs() {
         
-        let today = new Date();
-        let eventDate = null;
-        let found = false;
+        if (this.get('events')) {
+            let today = new Date();
+            let eventDate = null;
+            let found = false;
 
-        this.get('events').forEach((event) => {
-            if (!found && event.get('from').getTime() > today) {
-                eventDate = event.get('from');
-                found = true;
+            this.get('events').forEach((event) => {
+                if (!found && event.get('from').getTime() > today) {
+                    eventDate = event.get('from');
+                    found = true;
+                }
+            });
+            
+            if (found) {
+                let nextEventDate = this.get('intl').formatRelative(today.setDate(eventDate.getDate()));
+                this.set('nextEvent', nextEventDate);
             }
-        });
-        
-        if (found) {
-            let nextEventDate = this.get('intl').formatRelative(today.setDate(eventDate.getDate()));
-            this.set('nextEvent', nextEventDate);
         }
     }
     

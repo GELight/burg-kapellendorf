@@ -12,15 +12,7 @@ module('Integration | Component | main-image', function(hooks) {
 
     await render(hbs`{{main-image}}`);
 
-    assert.equal(this.element.textContent.trim(), '');
+    assert.notEqual(this.element.textContent.trim(), '');
 
-    // Template block usage:
-    await render(hbs`
-      {{#main-image}}
-        template block text
-      {{/main-image}}
-    `);
-
-    assert.equal(this.element.textContent.trim(), 'template block text');
   });
 });

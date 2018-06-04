@@ -14,13 +14,5 @@ module('Integration | Component | next-event', function(hooks) {
 
     assert.equal(this.element.textContent.trim(), '');
 
-    // Template block usage:
-    await render(hbs`
-      {{#next-event}}
-        template block text
-      {{/next-event}}
-    `);
-
-    assert.equal(this.element.textContent.trim(), 'template block text');
   });
 });

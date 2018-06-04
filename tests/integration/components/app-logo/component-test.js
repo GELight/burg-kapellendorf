@@ -12,15 +12,7 @@ module('Integration | Component | app-logo', function(hooks) {
 
     await render(hbs`{{app-logo}}`);
 
-    assert.equal(this.element.textContent.trim(), '');
+    assert.notEqual(this.element.textContent.trim(), '');
 
-    // Template block usage:
-    await render(hbs`
-      {{#app-logo}}
-        template block text
-      {{/app-logo}}
-    `);
-
-    assert.equal(this.element.textContent.trim(), 'template block text');
   });
 });
