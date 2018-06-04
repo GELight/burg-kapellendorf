@@ -62,6 +62,19 @@
         }
 
     }
+    
+    &.article-transparent {
+        img {
+            
+            &.filled {
+                width: 100%;
+
+                @include media-breakpoint-down(sm) {
+                    margin-top: $space-default;
+                }
+            }
+        }
+    }
 
     &.article-default {
         background: lighten($color-default, 100%);
