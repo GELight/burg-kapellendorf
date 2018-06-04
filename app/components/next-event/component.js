@@ -8,6 +8,8 @@ export default Component.extend({
 
     events: null,
 
+    nextEvent: null,
+
     didReceiveAttrs() {
         
         let today = new Date();
@@ -21,8 +23,10 @@ export default Component.extend({
             }
         });
         
-        let nextEventDate = this.get('intl').formatRelative(today.setDate(eventDate.getDate()));
-        this.set('nextEvent', nextEventDate);
+        if (found) {
+            let nextEventDate = this.get('intl').formatRelative(today.setDate(eventDate.getDate()));
+            this.set('nextEvent', nextEventDate);
+        }
     }
     
 });

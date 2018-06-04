@@ -10,6 +10,10 @@
     display: block;
     @include transition();
 
+    & + * {
+        margin-top: $space-default * 3;
+    }
+
     .next-event-headline {
         color: $color-highlighted;
         font-size: 2em;

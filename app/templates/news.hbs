@@ -1,1 +1,25 @@
-{{outlet}}
+<div class="container">
+    
+    <section>
+        {{next-event events=model.events}}
+    </section>
+
+    <section>
+        {{#each model.events as |event|}}
+            <div class="article article-{{if event.nextEvent 'highlighted' 'default'}} article-grid">
+                <div class="article-content">
+                    <h2 class="article-headline">
+                        {{format-date event.from}}
+                    </h2>
+                    <div>
+                        <strong>{{event.title}}</strong><br/>
+                        {{event.description}}
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </section>
+
+    {{outlet}}
+
+</div>

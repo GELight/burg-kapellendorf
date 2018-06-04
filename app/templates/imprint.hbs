@@ -1,0 +1,36 @@
+<div class="container">
+    
+    <div class="article article-default">
+        <div class="article-content">
+            <h2 class="article-headline">{{t 'navigation.imprint.title'}}</h2>
+            <p>
+                Landeshauptstadt Erfurt<br/>
+                Stadtverwaltung<br/>
+                Fischmarkt 1<br/>
+                99084 Erfurt<br/>
+            </p>
+            <p>
+                Kulturdirektion<br/>
+                Benediksplatz 1<br/>
+                99084 Erfurt<br/>
+            </p>
+            <p>
+                <div><strong>{{t 'brand.title'}} {{t 'contact.city'}}</strong></div>
+                <div><strong>{{t 'contact.street'}} {{t 'contact.houseno'}}</strong>></div>
+                <div><strong>{{t 'contact.zip'}} {{t 'contact.city'}}</strong></div>
+                
+                <div class="space-top">{{t 'general.tel.title'}}</div>
+                <div><a href="tel:{{t 'contact.tel'}}">{{t 'contact.tel'}}</a></div>
+            </p>
+            <p>
+                Mail: <a href="mailto:{{t 'contact.email'}}">{{t 'contact.email'}}</a>
+            </p>
+            <p>
+                Kuratorin, Schlossverwalterin: <strong>{{t 'contact.firstname'}} {{t 'contact.lastname'}}</strong>
+            </p>
+        </div>
+    </div>
+
+    {{outlet}}
+
+</div>

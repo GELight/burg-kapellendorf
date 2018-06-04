@@ -21,6 +21,7 @@
 
     .article-content {
         padding: $space-default * 6;
+        font-size: 1rem;
 
         @include media-breakpoint-down(sm) {
             order: 1;
@@ -29,7 +30,7 @@
 
     &.article-grid {
         display: grid;
-        grid-auto-rows: 250px;
+        //grid-auto-rows: 250px;
         grid-auto-flow: row dense;
         grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
 
@@ -67,6 +68,10 @@
         color: $text-color-default;
         width: 100%;
 
+        @include media-breakpoint-down(md) {
+            width: 100%;
+        }
+
         a {
             color: lighten($text-color-default, 0%);
             text-decoration: underline;
@@ -81,7 +86,6 @@
     &.article-highlighted {
         background: $color-highlighted;
         color: lighten($color-highlighted, 60%);
-        width: 50%;
         
         @include media-breakpoint-down(md) {
             width: 100%;
@@ -99,7 +103,6 @@
     &.article-primary {
         background: $color-primary;
         color: lighten($text-color-default, 100%);
-        width: 50%;
 
         @include media-breakpoint-down(md) {
             width: 100%;
