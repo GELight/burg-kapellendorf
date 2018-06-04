@@ -1,7 +1,7 @@
 ---
 language: node_js
 node_js:
-  - "6"
+  - "7"
 
 sudo: false
 dist: trusty
@@ -12,6 +12,7 @@ addons:
 cache:
   directories:
     - $HOME/.npm
+    - node_modules
 
 env:
   global:
@@ -22,5 +23,19 @@ before_install:
   - npm config set spin false
 
 script:
+  - npm install
+  - ember build --environment=production
   - npm run lint:js
   - npm test
+
+deploy:
+  edge:
+    branch: v1.8.47
+  local_dir: dist/
+  provider: pages
+  skip_cleanup: true
+  repo: burg-kapellendorf/burg-kapellendorf.github.io
+  target_branch: master
+  github_token: "$GITHUB_TOKEN"
+  on:
+    branch: master
