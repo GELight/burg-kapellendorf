@@ -1,4 +1,5 @@
 import Component from '@ember/component';
+import { isEmpty } from '@ember/utils';
 
 export default Component.extend({
 
@@ -15,19 +16,21 @@ export default Component.extend({
         this.set('images', []);
         let images = this.get('images');
         
-        gallery.get('images').forEach((image) => {
+        if (!isEmpty(gallery)) {
+            gallery.get('images').forEach((image) => {
 
-            let minWidth = image.minWidth ? image.minWidth : 1;
-            let minHeight = image.minHeight ? image.minHeight : 1;
+                let minWidth = image.minWidth ? image.minWidth : 1;
+                let minHeight = image.minHeight ? image.minHeight : 1;
 
-            let maxWidth = image.maxWidth ? image.maxWidth : (Math.floor(Math.random() * 2) + 1);
-            let maxHeight = image.maxHeight ? image.maxHeight : (Math.floor(Math.random() * 2) + 1);
+                let maxWidth = image.maxWidth ? image.maxWidth : (Math.floor(Math.random() * 2) + 1);
+                let maxHeight = image.maxHeight ? image.maxHeight : (Math.floor(Math.random() * 2) + 1);
 
-            image.width = Math.floor(Math.random() * maxWidth) + minWidth,
-            image.height = Math.floor(Math.random() * maxHeight) + minHeight
+                image.width = Math.floor(Math.random() * maxWidth) + minWidth,
+                image.height = Math.floor(Math.random() * maxHeight) + minHeight
 
-            images.push(image);
-        });
+                images.push(image);
+            });
+        }
 
     }
     

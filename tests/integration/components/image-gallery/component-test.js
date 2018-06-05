@@ -12,15 +12,8 @@ module('Integration | Component | image-gallery', function(hooks) {
 
     await render(hbs`{{image-gallery}}`);
 
+    //assert.equal(this.element.textContent.trim(), '');
     assert.equal(this.element.textContent.trim(), '');
 
-    // Template block usage:
-    await render(hbs`
-      {{#image-gallery}}
-        template block text
-      {{/image-gallery}}
-    `);
-
-    assert.equal(this.element.textContent.trim(), 'template block text');
   });
 });
