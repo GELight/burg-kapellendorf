@@ -8,7 +8,14 @@ export default Route.extend({
 
     model() {
         return RSVP.hash({
-            events: this.get('store').findAll('news')
+            events: this.get('store').findAll('news'),
+            galleries: this.get('store').findAll('gallery').then((gallery) => {
+                return gallery.filter((gallery) => {
+                    if (gallery.get('id') === 'test') {
+                        return true;
+                    }
+                });
+            })
         });
     }
 

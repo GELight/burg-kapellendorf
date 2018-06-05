@@ -1,0 +1,15 @@
+<div class="gallery-information article article-default article-grid">
+    <div class="article-content">
+        <h2 class="article-headline">{{gallery.title}}</h2>
+        <p>
+            {{gallery.description}}
+        </p>
+        {{yield}}
+    </div>
+</div>
+
+{{#each images as |img|}}
+    <div class="gallery-image" style="grid-column: span {{img.width}}; grid-row: span {{img.height}};">
+        <img src="/gallery/{{gallery.id}}/{{img.file}}" alt="{{img.alt}}" />
+    </div>
+{{/each}}

@@ -1,0 +1,130 @@
+{
+    "galleries": [
+        {
+            "id": "test",
+            "title": "Die Burg und Ihre Gäste",
+            "description": "Tauchen Sie ein in eine Welt voller Geschichte und Mythen. Besuchen Sie unsere Ausstellungen, Führungen und Veranstaltungen oder kommen Sie einfach nur Entspannung auf unsere Burg.",
+            "images": [
+                {
+                    "file": "_DSC_1342-43.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "_DSC_1382.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "_DSC_1420-22.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "_DSC_1440.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "_DSC_7176.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "_DSC_7182.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "_DSC_7232.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "_DSC_7244-47.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "_DSC_7321-31.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "_DSC_7336.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "22.04.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "048_DSC02457.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "058_DSC02468.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "E_012_010_KAP_L.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "IMG_1683.jpg", 
+                    "alt": "",
+                    "description": "",
+                    "minWidth": 1,
+                    "minHeight": 2,
+                    "maxWidth": 1,
+                    "maxHeight": 2
+                },
+                {
+                    "file": "IMG_1684.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "IMGP2171.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "IMGP2211.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "IMGP2212.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "IMGP2627.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "IMGP3716.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "Schiessscharte.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "Wappenstein.jpg", 
+                    "alt": "",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
