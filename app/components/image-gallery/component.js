@@ -22,11 +22,13 @@ export default Component.extend({
                 let minWidth = image.minWidth ? image.minWidth : 1;
                 let minHeight = image.minHeight ? image.minHeight : 1;
 
-                let maxWidth = image.maxWidth ? image.maxWidth : (Math.floor(Math.random() * 2) + 1);
-                let maxHeight = image.maxHeight ? image.maxHeight : (Math.floor(Math.random() * 2) + 1);
+                let maxWidth = image.maxWidth ? image.maxWidth : (Math.floor(Math.random() * 2));
+                let maxHeight = image.maxHeight ? image.maxHeight : (Math.floor(Math.random() * 2));
 
-                image.width = Math.floor(Math.random() * maxWidth) + minWidth,
-                image.height = Math.floor(Math.random() * maxHeight) + minHeight
+                image.width = Math.floor(Math.random() * maxWidth) + minWidth;
+                if (image.width > maxWidth) image.width = maxWidth;
+                image.height = Math.floor(Math.random() * maxHeight) + minHeight;
+                if (image.height > maxHeight) image.height = maxHeight;
 
                 images.push(image);
             });

@@ -143,4 +143,13 @@
 
     }
 
+    &.event-running {
+        background: $color-primary;
+        color: lighten($text-color-default, 100%);
+
+        .article-headline {
+            color: $color-highlighted;
+        }
+    }
+
 }

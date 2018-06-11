@@ -18,6 +18,11 @@ export default Route.extend({
                         event.set('nextEvent', true);
                         found = true;
                     }
+                    if (event.get('to')) {
+                        if (event.get('from').getTime() < today.getTime() && event.get('to').getTime() > today.getTime()) {
+                            event.set('eventStillInProgress', true);
+                        }
+                    }
                 });
             })
         });

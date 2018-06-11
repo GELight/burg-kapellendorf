@@ -8,6 +8,9 @@
         },
         "thuringia": {
             "alt": "Thüringen entdecken"
+        },
+        "thuringianCastlesAndGardens": {
+            "alt": "Thüringer Schlösser und Gärten"
         }
     },
     "general": {
@@ -64,6 +67,7 @@
     },
     "copyright": "© Copyright {year} - {brand} {city}",
     "contact": {
+        "title": "M.A. und Verwaltungs-Betriebswirt",
         "firstname": "Marie",
         "lastname": "Linz",
         "street": "Am Burgplatz",

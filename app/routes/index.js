@@ -11,7 +11,7 @@ export default Route.extend({
             events: this.get('store').findAll('news'),
             galleries: this.get('store').findAll('gallery').then((gallery) => {
                 return gallery.filter((gallery) => {
-                    if (gallery.get('id') === 'test') {
+                    if (gallery.get('id') === 'welcome') {
                         return true;
                     }
                 });

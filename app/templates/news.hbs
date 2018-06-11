@@ -13,10 +13,11 @@
 
     <section>
         {{#each model.events as |event|}}
-            <div class="article article-{{if event.nextEvent 'highlighted' 'default'}} article-grid">
+            <div class="article article-{{if event.nextEvent 'highlighted' 'default'}} article-grid {{if event.eventStillInProgress 'event-running'}}">
                 <div class="article-content">
                     <h2 class="article-headline">
                         {{format-date event.from}}
+                        {{#if event.to}} - {{format-date event.to}}{{/if}}
                     </h2>
                     <div>
                         <strong>{{event.title}}</strong><br/>

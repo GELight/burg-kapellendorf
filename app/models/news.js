@@ -5,5 +5,6 @@ export default DS.Model.extend({
     "to": DS.attr('date'),
     "title": DS.attr('string'),
     "description": DS.attr('string'),
-    "nextEvent": DS.attr('boolean', { defaultValue: false })
+    "nextEvent": DS.attr('boolean', { defaultValue: false }),
+    "eventStillInProgress": DS.attr('boolean', { defaultValue: false })
 });

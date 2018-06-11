@@ -1,7 +1,7 @@
 {
     "galleries": [
         {
-            "id": "test",
+            "id": "welcome",
             "title": "Die Burg und Ihre Gäste",
             "description": "Tauchen Sie ein in eine Welt voller Geschichte und Mythen. Besuchen Sie unsere Ausstellungen, Führungen und Veranstaltungen oder kommen Sie einfach nur Entspannung auf unsere Burg.",
             "images": [
@@ -18,7 +18,11 @@
                 {
                     "file": "058_DSC02468.jpg", 
                     "alt": "",
-                    "description": ""
+                    "description": "",
+                    "minWidth": 2,
+                    "minHeight": 2,
+                    "maxWidth": 2,
+                    "maxHeight": 2
                 },
                 {
                     "file": "E_012_010_KAP_L.jpg", 
@@ -71,6 +75,56 @@
                 },
                 {
                     "file": "Wappenstein.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "DSC_1342-43.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "DSC_1382.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "DSC_1420-22.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "DSC_1440.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "DSC_7176.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "DSC_7182.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "DSC_7232.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "DSC_7244-47.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "DSC_7321-31.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "DSC_7336.jpg", 
                     "alt": "",
                     "description": ""
                 }
