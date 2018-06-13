@@ -3,11 +3,11 @@
 
         {{#each links as |item|}}
             {{#link-to item.link class="btn btn-link"}}
-                <div class="nav-item-title">{{t item.title}}</div>
-                <div class="nav-item-description">{{t item.description}}</div>
+                <div class="nav-item-title">{{t item.title htmlSafe=true}}</div>
+                <div class="nav-item-description">{{t item.description htmlSafe=true}}</div>
             {{/link-to}}
         {{/each}}
-        
+
         {{yield}}
 
     </div>

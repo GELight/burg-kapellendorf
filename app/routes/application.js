@@ -3,9 +3,9 @@ import RSVP from 'rsvp';
 import { inject as service } from '@ember/service';
 
 export default Route.extend({
-    
+
     intl: service(),
-    
+
     beforeModel() {
       return this.get('intl').setLocale(['de-de']);
     },
@@ -13,7 +13,7 @@ export default Route.extend({
     model() {
 
       let quoteIndex = 1 + Math.floor(Math.random() * Math.floor(5));
-      
+
       return RSVP.hash({
         navigation: this.get('store').findAll('navigation').then((nav) => {
           return nav.filter((nav) => nav.get('type') === 'main');
@@ -22,9 +22,11 @@ export default Route.extend({
         footerNavLinks: this.get('store').findAll('navigation').then((nav) => {
           return nav.filter((nav) => nav.get('type') === 'footer');
         }),
-        quote: this.get('intl').t("quotes." + quoteIndex)
+        quote: this.get('intl').t("quotes." + quoteIndex, {
+          htmlSafe: true
+        })
       });
-  
+
     }
 
 });
