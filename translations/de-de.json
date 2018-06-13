@@ -65,7 +65,7 @@
             "description": ""
         }
     },
-    "copyright": "© Copyright {year} - {brand} {city}",
+    "copyright": "&copy; Copyright {year} - {brand} {city}",
     "contact": {
         "title": "M.A.",
         "firstname": "Marie",
