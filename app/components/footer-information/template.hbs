@@ -1,32 +1,32 @@
 <div class="footer-information">
     <div class="container d-flex justify-content-center">
-
+        
         <div class="footer-information-opening-hours">
             <div class="footer-information-headline">
-                {{t 'general.opening-hours.title' htmlSafe=true}}
+                {{t 'general.opening-hours.title'}}
             </div>
             <div>
                 {{t 'general.opening-hours.text' htmlSafe=true}}
             </div>
         </div>
-
+        
         <div>
             {{app-logo}}
         </div>
 
         <div class="footer-information-contact">
             <div class="footer-information-headline">
-                {{t 'general.contact.title' htmlSafe=true}}
+                {{t 'general.contact.title'}}
             </div>
             <div>{{t 'brand.title'}} {{t 'contact.city'}}</div>
             <div>{{t 'contact.street'}} {{t 'contact.houseno'}}</div>
             <div>{{t 'contact.zip'}} {{t 'contact.city'}}</div>
-
+            
             <div class="space-top">{{t 'general.tel.title'}}</div>
             <div>{{t 'contact.tel'}}</div>
         </div>
 
         {{yield}}
-
+        
     </div>
 </div>
