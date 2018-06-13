@@ -7,15 +7,15 @@
             "alt": "Landeshauptstadt Erfurt"
         },
         "thuringia": {
-            "alt": "Thüringen entdecken"
+            "alt": "Th&uuml;ringen entdecken"
         },
         "thuringianCastlesAndGardens": {
-            "alt": "Thüringer Schlösser und Gärten"
+            "alt": "Th&uuml;ringer Schl&ouml;sser und G&auml;rten"
         }
     },
     "general": {
         "opening-hours": {
-            "title": "Öffnungszeiten",
+            "title": "&Ouml;ffnungszeiten",
             "text": "DIENSTAG BIS SONNTAG<br/>10.00-12.00 Uhr<br/>UND<br/>13.00-17.00 Uhr"
         },
         "contact": {
@@ -25,7 +25,7 @@
             "title": "Telefon und Fax"
         },
         "event": {
-            "next": "Nächste Veranstaltung"
+            "next": "N&auml;chste Veranstaltung"
         },
         "days": "Tage",
         "hours": "Stunden",
@@ -42,7 +42,7 @@
         },
         "experience": {
             "title": "Erlebbar",
-            "description": "Führungen und Vermietungen"
+            "description": "F&uuml;hrungen und Vermietungen"
         },
         "news": {
             "title": "Aktuell",
@@ -50,7 +50,7 @@
         },
         "contact": {
             "title": "Erreichbar",
-            "description": "Kontakt und Öffnungszeiten"
+            "description": "Kontakt und &Ouml;ffnungszeiten"
         },
         "imprint": {
             "title": "Impressum",
@@ -79,10 +79,10 @@
         "tel": "036425 - 22 48 5"
     },
     "quotes": {
-        "1": "Große Türme sieht man bald",
-        "2": "Amtleute und Schösser bauen schöne Schlösser",
-        "3": "Nicht Steine sind es, die das Haus bauen, es sind die Gäste",
+        "1": "Gro&szlig;e T&uuml;rme sieht man bald",
+        "2": "Amtleute und Sch&ouml;sser bauen sch&ouml;ne Schl&ouml;sser",
+        "3": "Nicht Steine sind es, die das Haus bauen, es sind die G&auml;ste",
         "4": "In alten Mauern spuken die Geister am liebsten",
-        "5": "Alte Steine soll man nicht verrücken"
+        "5": "Alte Steine soll man nicht verr&uuml;cken"
     }
 }
