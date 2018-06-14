@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'burg-kapellendorf',
     environment,
     rootURL: '/',
-    locationType: 'hash',
+    locationType: 'auto',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -20,13 +20,17 @@ module.exports = function(environment) {
     googleFonts: [
       'Economica:100,300,400,700'
     ],
- 
+
     // Set or update content security policies
     contentSecurityPolicy: {
       'font-src': "'self' fonts.gstatic.com",
       'style-src': "'self' fonts.googleapis.com"
     },
-    
+
+    googleAnalytics: {
+      webPropertyId: 'UA-31051402-1'
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
@@ -54,7 +58,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.locationType = 'hash';
+    ENV.locationType = 'auto';
   }
 
   return ENV;
