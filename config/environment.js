@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'burg-kapellendorf',
     environment,
     rootURL: '/',
-    locationType: 'auto',
+    locationType: 'hash',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -58,7 +58,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.locationType = 'auto';
+    ENV.locationType = 'hash';
   }
 
   return ENV;
