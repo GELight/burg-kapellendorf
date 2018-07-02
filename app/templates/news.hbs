@@ -1,16 +1,16 @@
 <div class="container">
-    
+
     <section>
         {{next-event events=model.events}}
     </section>
-
+    {{!--
     <section>
         <div class="article article-transparent article-grid">
             <img src="/img/flyer-burg-kapellendorf-front.jpg" alt="" class="filled" />
             <img src="/img/flyer-burg-kapellendorf-back.jpg" alt=""  class="filled" />
         </div>
     </section>
-
+    --}}
     <section>
         {{#each model.events as |event|}}
             <div class="article article-{{if event.nextEvent 'highlighted' 'default'}} article-grid {{if event.eventStillInProgress 'event-running'}}">

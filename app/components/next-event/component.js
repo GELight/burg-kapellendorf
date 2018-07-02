@@ -5,7 +5,7 @@ export default Component.extend({
 
     tagName: "section",
     classNames: ['next-event'],
-    
+
     intl: service(),
 
     events: null,
@@ -13,24 +13,27 @@ export default Component.extend({
     nextEvent: null,
 
     didReceiveAttrs() {
-        
-        if (this.get('events')) {
-            let today = new Date();
-            let eventDate = null;
-            let found = false;
 
-            this.get('events').forEach((event) => {
-                if (!found && event.get('from').getTime() > today) {
-                    eventDate = event.get('from');
-                    found = true;
-                }
-            });
-            
-            if (found) {
-                let nextEventDate = this.get('intl').formatRelative(today.setDate(eventDate.getDate()));
-                this.set('nextEvent', nextEventDate);
-            }
+      if (this.get('events')) {
+
+        let today = new Date();
+        let eventDate = null;
+        let found = false;
+
+        this.get('events').forEach((event) => {
+          if (!found && event.get('from').getTime() > today.getTime()) {
+            eventDate = event.get('from');
+            found = true;
+          }
+        });
+
+        if (found) {
+          let nextEventDate = this.get('intl').formatRelative(today.setDate(eventDate.getDate()));
+          this.set('nextEvent', nextEventDate);
         }
+
+      }
+
     }
-    
+
 });
