@@ -1,8 +1,9 @@
 <div class="container">
 
-    <section>
+    {{!--<section>
         {{next-event events=model.events}}
-    </section>
+    </section>--}}
+
     {{!--
     <section>
         <div class="article article-transparent article-grid">
@@ -11,6 +12,21 @@
         </div>
     </section>
     --}}
+
+    <div class="article article-default article-grid">
+        <div class="article-content">
+            <h2 class="article-headline">Burgmuseum</h2>
+            <p>
+              Das Museum in der mittelalterlichen Kemenate informiert über die Geschichte der Burg und des historisch bedeutsamen Ortes.<br/><br/>
+              Ein Blick vom Wehrgang über die gesamte Anlage ist ein Muss für den Kapellendorfbesuch.<br/>
+              Zudem zeigt die Burg wechselnde Sonderausstellungen.
+            </p>
+        </div>
+        <div class="article-image">
+          <img src="/img/Plakat-Schwert.jpg" alt="" class="filled" />
+        </div>
+    </div>
+
     <section>
         {{#each model.events as |event|}}
             <div class="article article-{{if event.nextEvent 'highlighted' 'default'}} article-grid {{if event.eventStillInProgress 'event-running'}}">
@@ -20,8 +36,8 @@
                         {{#if event.to}} - {{format-date event.to}}{{/if}}
                     </h2>
                     <div>
-                        <strong>{{event.title}}</strong><br/>
-                        {{event.description}}
+                        <strong>{{event.title}}</strong>
+                        <p>{{{event.description}}}</p>
                     </div>
                 </div>
             </div>
