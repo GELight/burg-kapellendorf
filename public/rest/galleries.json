@@ -6,6 +6,11 @@
             "description": "Tauchen Sie ein in eine Welt voller Geschichte und Mythen. Besuchen Sie unsere Ausstellungen, Führungen und Veranstaltungen oder kommen Sie einfach nur Entspannung auf unsere Burg.",
             "images": [
                 {
+                    "file": "005.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
                     "file": "22.04.jpg", 
                     "alt": "",
                     "description": ""
@@ -26,6 +31,26 @@
                 },
                 {
                     "file": "E_012_010_KAP_L.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "001.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "002.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "003.jpg", 
+                    "alt": "",
+                    "description": ""
+                },
+                {
+                    "file": "004.jpg", 
                     "alt": "",
                     "description": ""
                 },
@@ -85,11 +110,6 @@
                 },
                 {
                     "file": "DSC_1382.jpg", 
-                    "alt": "",
-                    "description": ""
-                },
-                {
-                    "file": "DSC_1420-22.jpg", 
                     "alt": "",
                     "description": ""
                 },
