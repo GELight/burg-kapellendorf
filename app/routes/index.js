@@ -12,14 +12,15 @@ export default Route.extend({
               return events.filter((event) => {
                 return event.get('from').getTime() > new Date().getTime();
               });
-            }),
+            })
+            /*,
             galleries: this.get('store').findAll('gallery').then((gallery) => {
                 return gallery.filter((gallery) => {
                     if (gallery.get('id') === 'welcome') {
                         return true;
                     }
                 });
-            })
+            })*/
         });
     }
 
