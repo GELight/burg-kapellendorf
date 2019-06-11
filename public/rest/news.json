@@ -1,32 +1,88 @@
 {
   "news": [
     {
-      "id": 10,
-      "from": "2019-04-06",
-      "to": "2019-04-07",
-      "title": "Töpfermarkt",
-      "description": "10.00 -18.00 Uhr - Töpfermarkt im historischen Burginnenhof"
-    },
-    {
-      "id": 20,
-      "from": "2019-05-17",
+      "id": 100,
+      "from": "2019-06-23",
       "to": null,
-      "title": "Lange Museumsnacht",
-      "description": "18.00 - 23.00 Uhr - Busshuttel von Erfurt, Sonderführungen und Begleitprogramm"
+      "title": "Kapellendorfer Sonntagsausflug",
+      "description": "14:00 Uhr - „Von oben herab“ Führung über die Dachböden der Burg, im Anschluss Kaffee und Kuchen im Burghof"
     },
     {
-      "id": 30,
+      "id": 200,
       "from": "2019-07-18",
       "to": "2019-08-31",
       "title": "Open-Air-Spektakel",
-      "description": "Donnerstag, Freitag, Samstag jeweils 20.30 Uhr - Open-Air-Spektakel der Kurz- und Kleinkunstbühne aus Jena (20 Jahre Burghoftheater)"
+      "description": "Donnerstags, Freitags und Samstags jeweils 20.30 Uhr - Open-Air-Spektakel der Kurz- und Kleinkunstbühne aus Jena (Jubiläum: 20 Jahre Burghoftheater!)"
     },
     {
-      "id": 40,
+      "id": 300,
+      "from": "2019-07-20",
+      "to": null,
+      "title": "Kinder-Märchen-Theater",
+      "description": "11.00 Uhr - Das Theater im Palais aus Erfurt spielt bekannte Märchen im Burginnenhof"
+    },
+    {
+      "id": 305,
+      "from": "2019-07-21",
+      "to": null,
+      "title": "Kapellendorfer Sonntagsausflug",
+      "description": "14:00 Uhr - „Die Burg von unten“ Führung durch die Keller der Burg, im Anschluss Kaffee und Kuchen im Burghof"
+    },
+    {
+      "id": 310,
+      "from": "2019-07-27",
+      "to": null,
+      "title": "Kinder-Märchen-Theater",
+      "description": "11.00 Uhr - Das Theater im Palais aus Erfurt spielt bekannte Märchen im Burginnenhof"
+    },
+    {
+      "id": 320,
+      "from": "2019-08-03",
+      "to": null,
+      "title": "Kinder-Märchen-Theater",
+      "description": "11.00 Uhr - Das Theater im Palais aus Erfurt spielt bekannte Märchen im Burginnenhof"
+    },
+    {
+      "id": 330,
+      "from": "2019-08-07",
+      "to": null,
+      "title": "Kinder-Märchen-Theater",
+      "description": "11.00 Uhr - Das Theater im Palais aus Erfurt spielt bekannte Märchen im Burginnenhof"
+    },
+    {
+      "id": 340,
+      "from": "2019-08-10",
+      "to": null,
+      "title": "Kinder-Märchen-Theater",
+      "description": "11.00 Uhr - Das Theater im Palais aus Erfurt spielt bekannte Märchen im Burginnenhof"
+    },
+    {
+      "id": 400,
       "from": "2019-08-25",
       "to": null,
-      "title": "Familienpass Erfurt",
-      "description": "15.00 Uhr - Vom Dachboden zum Keller - Die Entdeckertour"
+      "title": "Burgführung für Familien",
+      "description": "15.00 Uhr - Vom Dachboden zum Keller – Die Entdeckertour (Erfurter Familienpass)"
+    },
+    {
+      "id": 500,
+      "from": "2019-09-08",
+      "to": null,
+      "title": "Tag des offenen Denkmals",
+      "description": "14.00 Uhr - Führung „Baustelle Burg“ – Erläuterungen zur den aktuellen Baumaßnahmen, im Anschluss Kaffee und Kuchen im Burghof"
+    },
+    {
+      "id": 600,
+      "from": "2019-09-22",
+      "to": null,
+      "title": "Kapellendorf und seine Denkmäler",
+      "description": "14.00 Uhr - Führung durch den idyllischen Ort, anschließend Kaffee und Kuchen am Lehmbackofen auf dem Schenkplan (in Zusammenarbeit mit dem Verein für Wasserburg und Kapellendorf e.V.)"
+    },
+    {
+      "id": 700,
+      "from": "2019-10-06",
+      "to": null,
+      "title": "Erlebnis 1806",
+      "description": "14.00 Uhr - Mit Robert Heyne (Verein 1806 e V.) auf den Spuren Napoleons, spannende Erläuterungen zu originalen Funden und Ausrüstungsgegenständen (im Prinzessinnenbau)"
     }
   ]
 }
