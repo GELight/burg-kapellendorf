@@ -2,87 +2,24 @@
   "news": [
     {
       "id": 100,
-      "from": "2019-06-23",
-      "to": null,
-      "title": "Kapellendorfer Sonntagsausflug",
-      "description": "14:00 Uhr - „Von oben herab“ Führung über die Dachböden der Burg, im Anschluss Kaffee und Kuchen im Burghof"
+      "from": "2020-04-04",
+      "to": "2020-04-04",
+      "title": "Töpfermarkt",
+      "description": "11:00 Uhr bis 18:00 Uhr"
     },
     {
       "id": 200,
-      "from": "2019-07-18",
-      "to": "2019-08-31",
-      "title": "Open-Air-Spektakel",
-      "description": "Donnerstags, Freitags und Samstags jeweils 20.30 Uhr - Open-Air-Spektakel der Kurz- und Kleinkunstbühne aus Jena (Jubiläum: 20 Jahre Burghoftheater!)"
+      "from": "2020-05-15",
+      "to": null,
+      "title": "Lange Nacht der Museen Erfurt",
+      "description": "18:00 Uhr bis 23:00 Uhr - Freuen Sie sich auf eine lange und ereignisreiche Nacht, in der die Wasserburg Kapellendorf ihre Türen öffnet. Schauen Sie hinter die Kulissen, stellen Sie Fragen an die Kuratorin Marie Linz und besuchen Sie unsere Sonderausstellung."
     },
     {
       "id": 300,
-      "from": "2019-07-20",
-      "to": null,
-      "title": "Das tapfere Schneiderlein",
-      "description": "11.00 Uhr - Das Theater im Palais aus Erfurt spielt bekannte Märchen im Burginnenhof<br/>Eintritt: Kinder 5,- Euro / Erwachsene 8,- Euro"
-    },
-    {
-      "id": 305,
-      "from": "2019-07-21",
-      "to": null,
-      "title": "Kapellendorfer Sonntagsausflug",
-      "description": "14:00 Uhr - „Die Burg von unten“ Führung durch die Keller der Burg, im Anschluss Kaffee und Kuchen im Burghof"
-    },
-    {
-      "id": 310,
-      "from": "2019-07-27",
-      "to": null,
-      "title": "Hans im Glück",
-      "description": "11.00 Uhr - Das Theater im Palais aus Erfurt spielt bekannte Märchen im Burginnenhof<br/>Eintritt: Kinder 5,- Euro / Erwachsene 8,- Euro"
-    },
-    {
-      "id": 320,
-      "from": "2019-08-03",
-      "to": null,
-      "title": "Der gestiefelte Kater",
-      "description": "11.00 Uhr - Das Theater im Palais aus Erfurt spielt bekannte Märchen im Burginnenhof<br/>Eintritt: Kinder 5,- Euro / Erwachsene 8,- Euro"
-    },
-    {
-      "id": 330,
-      "from": "2019-08-07",
-      "to": null,
-      "title": "Hänsel & Gretel",
-      "description": "11.00 Uhr - Das Theater im Palais aus Erfurt spielt bekannte Märchen im Burginnenhof<br/>Eintritt: Kinder 5,- Euro / Erwachsene 8,- Euro"
-    },
-    {
-      "id": 340,
-      "from": "2019-08-10",
-      "to": null,
-      "title": "Frau Holle",
-      "description": "11.00 Uhr - Das Theater im Palais aus Erfurt spielt bekannte Märchen im Burginnenhof<br/>Eintritt: Kinder 5,- Euro / Erwachsene 8,- Euro"
-    },
-    {
-      "id": 400,
-      "from": "2019-08-25",
-      "to": null,
-      "title": "Burgführung für Familien",
-      "description": "15.00 Uhr - Vom Dachboden zum Keller – Die Entdeckertour (Erfurter Familienpass)"
-    },
-    {
-      "id": 500,
-      "from": "2019-09-08",
-      "to": null,
-      "title": "Tag des offenen Denkmals",
-      "description": "14.00 Uhr - Führung „Baustelle Burg“ – Erläuterungen zur den aktuellen Baumaßnahmen, im Anschluss Kaffee und Kuchen im Burghof"
-    },
-    {
-      "id": 600,
-      "from": "2019-09-22",
-      "to": null,
-      "title": "Kapellendorf und seine Denkmäler",
-      "description": "14.00 Uhr - Führung durch den idyllischen Ort, anschließend Kaffee und Kuchen am Lehmbackofen auf dem Schenkplan (in Zusammenarbeit mit dem Verein für Wasserburg und Kapellendorf e.V.)"
-    },
-    {
-      "id": 700,
-      "from": "2019-10-06",
-      "to": null,
-      "title": "Erlebnis 1806",
-      "description": "14.00 Uhr - Mit Robert Heyne (Verein 1806 e V.) auf den Spuren Napoleons, spannende Erläuterungen zu originalen Funden und Ausrüstungsgegenständen (im Prinzessinnenbau)"
+      "from": "2020-07-16",
+      "to": "2020-08-29",
+      "title": "Burghoftheater",
+      "description": "20.30 Uhr - Genießen Sie an einem lauen Sommerabend vor historischer Kulisse eine kabarettistische Theateraufführung."
     }
   ]
 }
