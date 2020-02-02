@@ -27,10 +27,6 @@ module.exports = function(environment) {
       'style-src': "'self' fonts.googleapis.com"
     },
 
-    googleAnalytics: {
-      webPropertyId: 'UA-31051402-1'
-    },
-
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
