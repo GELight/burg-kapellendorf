@@ -17,6 +17,10 @@ module.exports = function(environment) {
       }
     },
 
+    'ember-meta': {
+      'Cache-Control': 'public, max-age=86400'
+    },
+
     googleFonts: [
       'Economica:100,300,400,700'
     ],
