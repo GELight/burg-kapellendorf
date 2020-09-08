@@ -2,87 +2,10 @@
   "news": [
     {
       "id": 50,
-      "from": "2020-03-01",
-      "to": "2020-05-12",
-      "title": "Wanderausstellung (eintrittsfrei)",
-      "description": "Auf Initiative des Landschaftspflegeverbands Mittelthüringen zeigt die Wasserburg Kapellendorf die, von der Deutschen Wildtierstiftung erarbeitete, Wanderausstellung \"Feldhamsterland\".<br/>(im Eingangsbereich des Justiz- und Rentamtes)"
-    },
-    {
-      "id": 200,
-      "from": "2020-05-15",
-      "to": null,
-      "title": "Lange Nacht der Museen Erfurt",
-      "description": "18:00 Uhr bis 23:00 Uhr - Freuen Sie sich auf eine lange und ereignisreiche Nacht, in der die Wasserburg Kapellendorf ihre Türen öffnet. Schauen Sie hinter die Kulissen, stellen Sie Fragen an die Kuratorin Marie Linz und besuchen Sie unsere Sonderausstellung."
-    },
-    {
-      "id": 500,
-      "from": "2020-07-04",
-      "to": null,
-      "title": "Kinder-Märchen-Theater",
-      "description": "11:00 Uhr - Theater im Palais aus Erfurt im historischen Burginnenhof"
-    },
-    {
-      "id": 600,
-      "from": "2020-07-11",
-      "to": null,
-      "title": "Kinder-Märchen-Theater",
-      "description": "11:00 Uhr - Theater im Palais aus Erfurt im historischen Burginnenhof"
-    },
-    {
-      "id": 650,
-      "from": "2020-07-16",
-      "to": "2020-08-29",
-      "title": "Burghoftheater",
-      "description": "20:30 Uhr - Genießen Sie an einem lauen Sommerabend vor historischer Kulisse eine kabarettistische Theateraufführung."
-    },
-    {
-      "id": 700,
-      "from": "2020-07-18",
-      "to": null,
-      "title": "Kinder-Märchen-Theater",
-      "description": "11:00 Uhr - Theater im Palais aus Erfurt im historischen Burginnenhof"
-    },
-    {
-      "id": 800,
-      "from": "2020-07-25",
-      "to": null,
-      "title": "Kinder-Märchen-Theater",
-      "description": "11:00 Uhr - Theater im Palais aus Erfurt im historischen Burginnenhof"
-    },
-    {
-      "id": 900,
-      "from": "2020-07-28",
-      "to": null,
-      "title": "Handwerk",
-      "description": "10:00 - 17:00 Uhr - historisches Biwak des Vereins \"Jena 1806 e.V.\""
-    },
-    {
-      "id": 1000,
-      "from": "2020-08-01",
-      "to": null,
-      "title": "Kinder-Märchen-Theater",
-      "description": "11:00 Uhr - Theater im Palais aus Erfurt im historischen Burginnenhof"
-    },
-    {
-      "id": 1100,
-      "from": "2020-08-08",
-      "to": null,
-      "title": "Kinder-Märchen-Theater",
-      "description": "11:00 Uhr - Theater im Palais aus Erfurt im historischen Burginnenhof"
-    },
-    {
-      "id": 1200,
-      "from": "2020-08-15",
-      "to": null,
-      "title": "Kinder-Märchen-Theater",
-      "description": "11:00 Uhr - Theater im Palais aus Erfurt im historischen Burginnenhof"
-    },
-    {
-      "id": 1300,
-      "from": "2020-08-22",
-      "to": null,
-      "title": "Kinder-Märchen-Theater",
-      "description": "11:00 Uhr - Theater im Palais aus Erfurt im historischen Burginnenhof"
+      "from": "2020-09-12",
+      "to": "2020-09-13",
+      "title": "Töpfermarkt",
+      "description": "Samstag von 11:00 Uhr - 18:00 Uhr und Sonntag von 10:00 Uhr - 18:00 Uhr"
     }
   ]
 }
