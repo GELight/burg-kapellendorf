@@ -1,56 +1,13 @@
 # burg-kapellendorf
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+# 1. Node Version auf 8.0.0 setzen
+nvm use 8.0.0
 
-## Prerequisites
+# 2. Eventuell muss nach dem NVM noch mal die Ember CLI installiert werden, da durch das geänderte Node eine Verlinkung in einen neuen Node-Ordner gesetzt wird, wo evtl. noch keine CLI zu finden ist.
+npm install -g ember-cli
 
-You will need the following things properly installed on your computer.
+# 3. Dev-Server starten
+ember serve
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd burg-kapellendorf`
-* `npm install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+# Seite öffnen
+http://localhost:4200
